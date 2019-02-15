@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageBrowser"
+        android:layout_width="81dp"
+        android:layout_height="70dp"
+        android:src="@drawable/chrome_512" />
+
+    <ImageView
+        android:id="@+id/imageMessenger"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_messenger"
+        android:layout_toRightOf="@id/imageBrowser"
+        />
+
+    <ImageView
+        android:id="@+id/imagePhone"
+        android:layout_width="82dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_phone"
+        android:layout_toRightOf="@id/imageMessenger"
+        />
+
+</RelativeLayout>
